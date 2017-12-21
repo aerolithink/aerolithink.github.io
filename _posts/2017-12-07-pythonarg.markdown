@@ -94,7 +94,7 @@ print(print_hello(sex=1, name='Chen'))
 使用关键词参数时，可为参数提供默认值，调用函数时可传可不传该默认参数的值（注意：所有位置参数必须出现在默认参数前，包括函数定义和调用）
 
 正确的默认参数定义方式 --> 位置参数在前，默认参数在后
-```
+```python
 def print_hello2(name, sex=1):    # 默认sex=1
     sex_dict = {1: '先生', 2: '女士'}    # key: value
     print('hello %s %s, welcome to circus!' %(name, sex_dict.get(sex, '先生')))
@@ -341,7 +341,7 @@ func1(1, 2, 3, 4, 5)
 ```
 Python 3.X 当中，默认参数 z=1 在函数参数中最后定义，Python 就会知道除了 传给 x 和 y, 以及 z=1 的部分，其他的剩余参数 (3, 4, 5) 都是传入到 \*args 当中。
 默认参数 z=1 不是在函数参数中最后定义时，情况又是怎样？
-```
+```python
 def func2(x, y, z=1, *args):
     print(x, y, z, args)
 
