@@ -63,16 +63,7 @@ layout: default
         {% else %}
 
 <!-- USE SIDEBAR -->
-    <!-- PostList Container -->
-    		<div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                postlist-container
-            ">
-    			{{ content }}
-    		</div>
+
     <!-- Sidebar Container -->
             <div class="
                 col-lg-3 col-lg-offset-0
@@ -193,6 +184,16 @@ layout: default
                     {% endfor %}
                 </ul>
                 {% endif %}
+    		</div>
+    <!-- PostList Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                postlist-container
+            ">
+    			{{ content }}
     		</div>
         {% endif %}
 	</div>
