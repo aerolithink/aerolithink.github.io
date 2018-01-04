@@ -5,8 +5,8 @@ subtitle:   "Think like an aerolith."
 date:       2017-12-07 12:00:00
 author:     "Aaron"
 header-img: "img/post-bg-2015.jpg"
-catalog: false
-music-id:   4346235
+catalog: true
+music-id:   4346235&auto=1&height=66
 tags:
     - 生活
 ---
