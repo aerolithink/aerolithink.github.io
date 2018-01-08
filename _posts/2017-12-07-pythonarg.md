@@ -1,21 +1,25 @@
 ---
 layout:     post
-title:      "Python中的 *args 和 **kwargs"
-subtitle:   "Think like an aerolith."
+title:      "\" *args \" & \" **kwargs \" in Python"
+subtitle:   "Python中的 “ *args ” 和 “ **kwargs ”"
 date:       2017-12-07 15:00:00
 author:     "Aaron"
 header-img: "img/post-bg-pythonarg.jpg"
+header-mask: 0.2
+multilingual: false
 catalog: true
-music: on
+music: true
 music-id: 458725076
 tags:
     - Python
+    - args
+    - kwargs
 ---
 
 > “Hello world.”
 >
 > 前段时间偶然发现自己对 \*args 和 **kwargs 还存在一些困惑，而网络上的知识点比较零碎，身边几本书上写的又各有侧重。这里把自己整理的一些笔记贴出来，相信能帮到遇到同样问题的小伙伴。
-最后的Example是用Sublime写的，Sublime对中文支持不好，所以这里注释用了英文。
+
 
 
 >手机上看到话code太长是可以左右滑动的。
@@ -265,7 +269,7 @@ In the year of our lord 1239, there once lived a princess of a royal line.
 def power(x, y, *args):
     if args:
         print('Received redundant parameters:', args)
-    return pow(x, y)    
+    return pow(x, y)
 
 print(power(2, 3))    # 2 to the 3rd power
 print(power(3, 2))    # 3 to the 2nd power
@@ -358,7 +362,3 @@ func2(1, 2, 3, 4, 5)
 Python 2.X 并没有这一特性，所以 Python 2.X 的 z=1 必须在*args和**kwargs这种剩余参数收集之前。
 
 ~结束啦~
-
-
-
-
