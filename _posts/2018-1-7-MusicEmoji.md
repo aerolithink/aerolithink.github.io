@@ -83,9 +83,9 @@ src="//music.163.com/outchain/player?type=2&id=458725076&auto=1&height=66">
 src="//music.163.com/outchain/player?type=2&id=458725076&auto=1&height=66">
 </iframe>
 ```
-跳过前面width，height等基础格式，我们会发现source地址内有 **id=458725076** 一项，实际上这就是对应歌曲的id号了。那么思路就有了，只需要更改id号就能控制播放的曲目。
+跳过前面width，height等基础格式，我们会发现source地址内有 **``id=458725076``** 一项，实际上这就是对应歌曲的id号了。那么思路就有了，只需要更改id号就能控制播放的曲目。
 
-要实现为每一篇博文定义曲目，只需要将 **id=458725076** 改为 **id={{ page.music-id }}** ，同时在markdown文档的头文件中添加 **music-id: XXXXX** 配置项，将曲面的外链中的id号复制进去，就可以轻松的为每一篇文章设置曲目了。
+要实现为每一篇博文定义曲目，只需要将 **``id=458725076``** 改为 **``id={ { page.music-id } }``** ，同时在markdown文档的头文件中添加 **``music-id: XXXXX``** 配置项，将曲面的外链中的id号复制进去，就可以轻松的为每一篇文章设置曲目了。
 
 完整代码如下：
 ```html
@@ -95,11 +95,11 @@ src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height
 </iframe>
 ```
 
-此外，外链中的 **“auto=1”** 可以控制自动播放与否，当值为 1 即打开网页就自动播放，值为 0 时需要访客手动点击播放。
+此外，外链中的 **``auto=1``** 可以控制自动播放与否，当值为 1 即打开网页就自动播放，值为 0 时需要访客手动点击播放。
 
 # 更进一步
 
-同样由于我们是将外链放到了 **post.html** 布局文件中，每篇文章就都必须配置一个 **music-id: XXXXXX** （必须有一首曲目），否则就会报错。可以在 **post.html** 布局文件中加一个 if 语句让播放器更智能一点：
+同样由于我们是将外链放到了 **post.html** 布局文件中，每篇文章就都必须配置一个 **``music-id: XXXXXX``** （必须有一首曲目），否则就会报错。可以在 **post.html** 布局文件中加一个 if 语句让播放器更智能一点：
 
 
 ```html
@@ -111,7 +111,7 @@ src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height
 { % endif % }    <!-- “{ %”之间的空格需要删除 -->
 ```
 
-这样当 **music-id:** 参数为空时，播放器就会关闭（不加载）。
+这样当 **``music-id:``** 参数为空时，播放器就会关闭（不加载）。
 
 此外，还有很多玩法，比如编辑一个 _favoriteidlist_，再加一个 loop 语句来循环你的最爱曲目（哈哈哈前提是有人在你博客呆足够长的时间，或者是特地来听音乐的，不然就鸡肋了）。
 
@@ -125,7 +125,7 @@ src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height
 
 2 &nbsp;修改 id 对曲目进行更改；
 
-3 &nbsp;将外链中的 **id=XXXXXX** 改为 **id={{ page.music-id }}** ，就可以单独对每篇博文中对 id 进行配置来自定义曲目;
+3 &nbsp;将外链中的 **``id=XXXXXX``** 改为 **``id={ { page.music-id } }``** ，就可以单独对每篇博文中对 id 进行配置来自定义曲目;
 
 4 &nbsp;还有很多可以折腾的，来点首歌吧。
 
