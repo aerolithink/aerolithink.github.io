@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Sublime Rapid Deployment with Cloud Synchronization between Multi-PC"
-subtitle:   "多 PC 端配置环境同步实现 Sublime 快速部署"
+title:      "Sublime Rapid Deployment with Cloud between Multi-PC"
+subtitle:   "多 PC 端配置云端同步实现 Sublime 快速部署"
 date:       2018-1-13 12:00:00
 author:     "Aaron"
 header-img: "img/post-bg-CloudSublime.jpg"
