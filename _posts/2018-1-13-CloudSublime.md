@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Sublime Rapid Deployment with Cloud Synchronization between Multicomputers"
+title:      "Sublime Rapid Deployment with Cloud Synchronization between Multi-PC"
 subtitle:   "多 PC 端配置环境同步实现 Sublime 快速部署"
 date:       2018-1-13 12:00:00
 author:     "Aaron"
@@ -15,6 +15,7 @@ tags:
     - Nutstore
 ---
 
+> In fact, nothing has changed, but only the differences you think.
 
 # 前言
 [Sublime Text 3](https://www.sublimetext.com/) (下面简称 Sublime ) 是一款十分优秀的代码文本编辑器，不仅可以秒开各种格式的文本文件，还自带了十分 Geek 的各种快捷键，使用者还可以方便的在系统的 ```Json``` 文件中进行各种天马行空的自定义，使用起来行云流水，可以说是十分可怕了。除此以外，使用者可以用 [Package Control](https://packagecontrol.io/) 插件对 Sublime 所支持的拓展包 (插件) 进行安装和管理，[Package Control](https://packagecontrol.io/) 里基本可以找到所有你所需要的拓展包，有能力的小伙伴甚至可以自己进行开发来实现需要的功能。
