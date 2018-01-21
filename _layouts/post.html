@@ -22,6 +22,28 @@ layout: default
     }
     {% endif %}
 </style>
+
+<!-- Table #95a1bb-->
+<style>
+  img{margin: 0}
+  table{
+      border-left: 1px solid #95a1bb;
+	    border-top: 1px solid #95a1bb;
+      width: 100%;
+      word-wrap: break-word;
+	    word-break: break-all;
+  }
+
+  table th{
+      text-align: center;
+  }
+
+  table th,td{
+      border-right: 1px solid #95a1bb;
+	    border-bottom: 1px solid #95a1bb;
+  }
+</style>
+
 <header class="intro-header" >
     <div class="header-mask"></div>
     <div class="container">
@@ -58,7 +80,7 @@ layout: default
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-	
+
                 <!-- Multi-Lingual -->
                 {% if page.multilingual %}
                 <!-- Language Selector -->
@@ -67,20 +89,20 @@ layout: default
                     <option value="1"> 英文 English </option>
                 </select>
                 {% endif %}
-			</div> 
+			</div>
 
 			<div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-				
-				<!-- CloudMusic -->	
+
+				<!-- CloudMusic -->
 				{% if page.music %}
 				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id={{ page.music-id }}&auto=1&height=66">
 				</iframe>
 				{% endif %}
 
-				
+
 				{{ content }}
                 <hr style="visibility: hidden;">
 
@@ -117,7 +139,7 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
-            </div>  
+            </div>
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}
@@ -126,7 +148,7 @@ layout: default
                 visible-lg-block
                 sidebar-container
                 catalog-container">
-					
+
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>
@@ -180,7 +202,7 @@ layout: default
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <script>
   var cloudTieConfig = {
-    url: document.location.href, 
+    url: document.location.href,
     sourceId: "",
     productKey: "de25fc98a6fe48b3bc8a7ae765da99a0",
     target: "cloud-tie-wrapper"
