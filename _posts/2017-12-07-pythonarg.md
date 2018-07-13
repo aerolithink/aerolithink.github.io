@@ -4,7 +4,7 @@ title:      "\" *args \" & \" **kwargs \" in Python"
 subtitle:   "Python中的 “ *args ” 和 “ **kwargs ”"
 date:       2017-12-07 15:00:00
 author:     "Aaron"
-header-img: "img/post-bg-pythonarg.jpg"
+header-img: "img/header-img/post-bg-pythonarg.jpg"
 header-mask: 0.2
 multilingual: false
 catalog: true

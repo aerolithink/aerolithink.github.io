@@ -4,7 +4,7 @@ title:      "The Captain and the Seabird"
 subtitle:   "船长与海鸟"
 date:       2017-12-17 12:00:00
 author:     "Aaron"
-header-img: "img/post-bg-whoami.jpg"
+header-img: "img/header-img/post-bg-whoami.jpg"
 header-mask: 0.3
 multilingual: false
 catalog: false

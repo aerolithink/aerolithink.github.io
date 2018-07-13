@@ -4,7 +4,7 @@ title:      "Sublime Rapid Deployment with Cloud between Multi-PC"
 subtitle:   "多 PC 端配置云端同步实现 Sublime 快速部署"
 date:       2018-1-13 12:00:00
 author:     "Aaron"
-header-img: "img/post-bg-CloudSublime.jpg"
+header-img: "img/header-img/post-bg-CloudSublime.jpg"
 header-mask: 0.6
 multilingual: false
 catalog: true

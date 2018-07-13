@@ -4,7 +4,7 @@ title:      "Add CloudMusic to Your Jekyll Blog"
 subtitle:   "给Jekyll博客添加网易云音乐"
 date:       2018-1-7 12:00:00
 author:     "Aaron"
-header-img: "img/post-bg-JekyllCloudmusic.jpg"
+header-img: "img/header-img/post-bg-JekyllCloudmusic.jpg"
 header-mask: 0.2
 multilingual: false
 catalog: true

@@ -4,7 +4,7 @@ title:      "An Analogy between the Parameters of SLR and Human Eyes"
 subtitle:   "单反参数关于人眼的类比"
 date:       2017-12-11 12:00:00
 author:     "Aaron"
-header-img: "img/post-bg-SLRparametersEyes.jpg"
+header-img: "img/header-img/post-bg-SLRparametersEyes.jpg"
 header-mask: 0.8
 multilingual: false
 catalog: true
