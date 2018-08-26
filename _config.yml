@@ -50,9 +50,12 @@ kramdown:
 #disqus_username: aerolith-ink    # use the shortname for the forum, not the account.
 
 # Gitalk settings
-comment_gitment_repo: aerolithink.github.io
-comment_gitment_clientId: 77df11fe5b8fbafafd93
-comment_gitment_clientSecret: b92ba098466a169a68005cd21f9129a14595f814
+comment_gitalk_clientId: 77df11fe5b8fbafafd93
+comment_gitalk_clientSecret: b92ba098466a169a68005cd21f9129a14595f814
+comment_gitalk_repo: aerolithink.github.io
+github_username: aerolithink
+
+
 
 
 # Analytics settings
